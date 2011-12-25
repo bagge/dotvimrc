@@ -68,6 +68,9 @@ set number
 if has("win32") || has("win64")
    set directory=\vimswap
    set backupdir=\vimswap
+else
+   set directory=~/.vimcache
+   set backupdir=~/.vimcache
 end
 
 " Incremental searches
