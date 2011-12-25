@@ -1,0 +1,4 @@
+Create links to these files to use:
+ln -s vimrc ~/.vimrc
+ln -s gvimrc ~/.gvimrc
+
